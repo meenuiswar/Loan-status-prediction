@@ -14,7 +14,7 @@ class App extends Component {
         <HomePage />
         <About />
         <Calculator />
-        <Result result={0} />
+        <Result text='Quote: Live Life!' />
       </div>
     );
   }

@@ -1,0 +1,35 @@
+/* Create a sticky/fixed navbar */
+.navbar {
+    display:flex;
+    justify-content: flex-end;
+    background:#202124;
+    padding: 30px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /*Adds a transition effect when the padding is decreased*/
+   /* position: fixed; /* Sticky/fixed navbar */
+   position: fixed;
+    width: 100%;
+  }
+  /* Display some links to the right */
+.navbarRight {
+    display:flex;
+    justify-content: flex-end;
+    padding-right:20px;
+  }
+
+.link{
+    color: #fafafa;
+    text-align: center;
+    padding:12px;
+    font-size: 18px; 
+    line-height: 20px;
+    border-radius: 4px;
+    margin-right:10px;  
+}
+.link:hover{
+    background-color: #fafafa;
+    color:#202124;
+}
+.link:active{
+background-color: #fafafa;
+color:#202124;
+}
